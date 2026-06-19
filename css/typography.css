@@ -3,8 +3,10 @@
     font-size: clamp(1.85rem, 5.75vw, 4.4rem);
     text-align: center;
     letter-spacing: 0.08em;
-    background-color: transparent;
+    /* background-color: transparent; */
     color: var(--color-logo);
+    background-color: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(4px);
 }
 
 .jumbotron .subhead-1 {
@@ -13,8 +15,11 @@
     /* text-align: center; */
     /* letter-spacing: 0.08em; */
     text-transform: uppercase;
-    background-color: transparent;
-    color: var(--h3-color-1);
+    /* background-color: transparent; */
+    /* color: var(--h3-color-1); */
+    color: var(--text-color);
+    background-color: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(4px);
 }
 
 .jumbotron .subhead-2 {
@@ -22,6 +27,9 @@
     /* font-size: clamp(1.85rem, 5.75vw, 4.4rem); */
     /* text-align: center; */
     /* letter-spacing: 0.08em; */
-    background-color: transparent;
-    color: var(--h3-color-2);
+    /* background-color: transparent; */
+    /* color: var(--h3-color-2); */
+    color: var(--text-color);
+    background-color: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(4px);
 }

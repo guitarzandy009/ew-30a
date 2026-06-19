@@ -1,9 +1,9 @@
 :root {
     --bg-color: #0000;
-    --text-color: #ff2d78;;
+    --text-color: #518aac;
     --font-display: monoton, 'Courier New', monospace;
     --sub-font-display: 'Courier New', monospace;
     --color-logo: #ff2d78;
-    --h3-color-1: #b57bee;
-    --h3-color-2: #39ff6e;
+    /* --h3-color-1: #b57bee; */
+    /* --h3-color-2: #39ff6e;   */
 }
