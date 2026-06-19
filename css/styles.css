@@ -1,13 +1,13 @@
 main {
     background-color: var(--bg-color);
-    color: var(--text-color);
+    /* color: var(--text-color); */
 }
 
 .jumbotron h1 {
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
-    color: var(--text-color);
+    /* color: var(--text-color); */
 }
 
 .jumbotron {
@@ -39,5 +39,5 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: #fff;
+  /* color: #fff; */
 }
