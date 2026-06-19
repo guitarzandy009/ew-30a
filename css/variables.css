@@ -1,4 +1,6 @@
 :root {
     --bg-color: #0000;
     --text-color: deeppink;
+    --font-display: monoton, 'Courier New', monospace;
+    --color-logo: deeppink;
 }

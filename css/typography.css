@@ -1,0 +1,8 @@
+.jumbotron h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 5.75vw, 4.4rem);
+  text-align: center;
+  letter-spacing: 0.08em;
+  background-color: transparent;
+  color: var(--text-color);
+}
