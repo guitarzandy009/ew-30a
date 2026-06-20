@@ -1,9 +1,9 @@
 .jumbotron h1 {
     font-family: var(--font-display);
-    font-size: clamp(1.85rem, 5.75vw, 4.4rem);
+    font-size: clamp(2rem, 5.75vw, 10rem);
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.08em;
-    /* background-color: transparent; */
     color: var(--color-logo);
     background-color: rgba(0, 0, 0, 0.42);
     backdrop-filter: blur(4px);
@@ -11,24 +11,21 @@
 
 .jumbotron .subhead-1 {
     font-family: var(--sub-font-display);
-    /* font-size: clamp(1.85rem, 5.75vw, 4.4rem); */
-    /* text-align: center; */
+    font-size: clamp(0.85rem, 3.2vw, 2.4rem);
+    text-align: center;
     /* letter-spacing: 0.08em; */
     text-transform: uppercase;
-    /* background-color: transparent; */
-    /* color: var(--h3-color-1); */
     color: var(--text-color);
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.42);
     backdrop-filter: blur(4px);
 }
 
 .jumbotron .subhead-2 {
     font-family: var(--sub-font-display);
-    /* font-size: clamp(1.85rem, 5.75vw, 4.4rem); */
-    /* text-align: center; */
+    font-size: clamp(0.65rem, 2vw, 1.5rem);
+    text-align: center;
     /* letter-spacing: 0.08em; */
-    /* background-color: transparent; */
-    /* color: var(--h3-color-2); */
+    text-transform: capitalize;
     color: var(--text-color);
     background-color: rgba(0, 0, 0, 0.72);
     backdrop-filter: blur(4px);
