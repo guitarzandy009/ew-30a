@@ -1,36 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ew-30a</title>
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=monoton:400" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header></header>
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=monoton:400" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#" class="site-nav__logo">EW-30A</a>
+        <ul class="site-nav__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="hamburger"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+        >
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Primary mobile" aria-hidden="true">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-        <section class="top"></section>
-        <section class="right-section"></section>
-        <section class="jumbotron">
+      <section class="jumbotron">
         <picture class="jumbotron__bg">
-            <source media="(min-width: 768px)" srcset="assets/images/galaxy.jpg">
-            <img src="assets/images/galaxy-small.jpg" alt="Spiral galaxy">
+          <source media="(min-width: 768px)" srcset="assets/images/galaxy.jpg" />
+          <img src="assets/images/galaxy-small.jpg" alt="Spiral galaxy" />
         </picture>
         <div class="jumbotron__content">
-            <h1>Electro Wave 30-A</h1>
-            <h2 class="subhead-1">Cosmic pulses breaking the thin barrier of white sandy beaches</h2>
-            <h3 class="subhead-2">Synthwave,retro and live music on the beautiful Emerald Coast</h3>
+          <h1>Electro Wave 30-A</h1>
+          <h2 class="subhead-1">Cosmic pulses breaking the thin barrier of white sandy beaches</h2>
+          <h3 class="subhead-2">Synthwave,retro and live music on the beautiful Emerald Coast</h3>
         </div>
-        </section>
-        <section class="bottom-section"></section>
-        <section class="left-section"></section>
+      </section>
     </main>
     <footer></footer>
     <script src="scripts/main.js"></script>
-</body>
+  </body>
 </html>
